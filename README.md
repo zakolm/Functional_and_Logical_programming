@@ -1,1 +1,1 @@
-# Functional_and_Logical_programming
+# Функциональное и Логическое программирование на Lisp и Prolog, 6 семестр, BMSTU, IU7(2019)
