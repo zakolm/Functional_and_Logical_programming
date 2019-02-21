@@ -1,0 +1,27 @@
+% задание и сама лабораторная работа
+\newpage
+\section*{Задание}
+\addcontentsline{toc}{section}{\tocsecindent{Задание}}
+\Large{Лабораторная работа №3}
+
+\begin{itemize}
+	\item Используя только функции car и cdr, написать выражения, возвращающие:
+	\begin{enumerate}
+		\item (list 'Fred 'and Wilma)) = \textbf{Error}\hspace{17pt}							;  т.к. Wilma ни к чему не вычисляется.
+		\item (list 'Fred '(and Wilma)) = (Fred (and Wilma))
+		\item (cons Nil Nil) = (Nil.Nil) =(Nil)
+		\item (cons T Nil) = (T.Nil) = (T)
+		\item (cons Nil T) = (Nil.T)
+		\item (list Nil) = (Nil)
+		\item (cons (T) Nil) = \textbf{Error}\hspace{70pt}										; т.к. первый элемент списка является функцией, а T- атом(не является функцией)
+		\item (list '(one two) '(free temp)) = ((one two) (free temp))
+		\item (cons 'Fred '(and Wilma) = (Fred and Wilma)
+		\item (cons 'Fred 'Wilma) = (Fred Wilma)
+		\item (list Nil Nil) = (Nil Nil)
+		\item (list T Nil) = (T Nil)
+		\item (list Nil T) = (Nil T)
+		\item (cons T (list Nil)) = (T Nil)
+		\item (list (T) Nil) = \textbf{Error}\hspace{75pt}										; т.к. первый элемент списка является функцией, а T- атом(не является функцией)
+		\item (cons '(one two) '(free temp)) = ((one two) free temp)
+	\end{enumerate}
+\end{itemize}
