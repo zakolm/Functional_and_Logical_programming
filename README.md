@@ -12,8 +12,8 @@
 | :one: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Представить списки в виде списочных ячеек |
 | :two: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение функций car и cdr |
 | :three: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение функций cons и list |
-| :four: | :white_check_mark: | :x: | :white_check_mark: | |
-| :five: | :white_check_mark: | :x: | :x: | |
+| :four: | :white_check_mark: | :x: | :white_check_mark: | Изучение порядка реализации функций и работа с defun-функциями |
+| :five: | :white_check_mark: | :x: | :white_check_mark: | Изучение setf и работа с defun-функциями |
 | :six: | :x: | :x: | :x: | |
 | :seven: | :x: | :x: | :x: | |
 | :eight: | :x: | :x: | :x: | |
