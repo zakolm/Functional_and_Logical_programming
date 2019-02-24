@@ -1,0 +1,92 @@
+% задание и сама лабораторная работа
+\newpage
+\section*{Задание}
+\addcontentsline{toc}{section}{\tocsecindent{Задание}}
+\Large{Лабораторная работа №5}
+
+\begin{itemize}
+	\item Если запустить интерпретатор и ввести:
+		\begin{itemize}
+			\item (setf  a 2)
+			\item (setf b 3)
+			\item (setf c 5)
+		\end{itemize}
+	\item Что будет на экране, если вводить:
+		\begin{itemize}
+			\item a
+			\item b
+			\item c
+			\item ‘a
+			\item ‘(+ a c)
+			\item (a)
+			\item (eval ‘a)
+		\end{itemize}
+	\underline{Добавив:}\\
+	\textbf{(defun a() ‘b) }\\
+	\textbf{(defun b() 4)}
+	\item Что будет на экране, если вводить:
+		\begin{itemize}
+			\item a
+			\item b 
+			\item c
+			\item ‘a
+			\item ‘(+ a c)
+			\item (a)
+			\item (eval ‘a)
+			\item (a)
+			\item (+ a a)
+			\item (+ (b) b)
+			\item (b b b)
+		\end{itemize}
+	\underline{Добавив:}\\
+	\textbf{(setf a b)}
+	\item Что будет на экране, если вводить:
+		\begin{itemize}
+			\item a
+			\item b 
+			\item c
+			\item `a
+			\item `(+ a c)
+			\item (a)
+			\item (eval `a)
+		\end{itemize}
+	\underline{Добавив:}\\
+	\textbf{(setf c b)}
+	\item Что будет на экране, если вводить:
+		\begin{itemize}
+			\item a
+			\item b
+			\item c
+			\item `a
+			\item `(+ a c)
+			\item (a)
+			\item (eval `a)
+		\end{itemize}
+	\underline{Добавив:}\\
+	\textbf{(defun a(x y) (+ x y))}
+	\item Что будет на экране, если вводить:
+		\begin{itemize}
+			\item a
+			\item b
+			\item c
+			\item `a
+			\item `(+ a c)
+			\item (a)
+			\item (eval `a)
+			\item (a a a)
+			\item (a b a)
+		\end{itemize}
+	\hrulefill 
+\begin{itemize}
+	\item (defun b(x y) (setf b (+ b 1)) (* x y b) ) 
+\end{itemize}
+	\hrulefill
+	%	\hrulefill
+	\item Что будет на экране, если вводить:
+		\begin{itemize}
+			\item a
+			\item b
+			\item (b b b)
+		\end{itemize}
+	\item Напишите функцию, которая вычисляет катет по гипотенузе и другому катету.
+\end{itemize}
