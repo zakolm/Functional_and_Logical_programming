@@ -14,11 +14,11 @@
 | :three: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение функций cons и list |
 | :four: | :white_check_mark: | :x: | :white_check_mark: | Изучение порядка реализации функций и работа с defun-функциями |
 | :five: | :white_check_mark: | :x: | :white_check_mark: | Изучение setf и работа с defun-функциями |
-| :six: | :x: | :x: | :x: | |
-| :seven: | :x: | :x: | :x: | |
-| :eight: | :x: | :x: | :x: | |
-| :nine: | :x: | :x: | :x: | |
-| :one::zero: | :x: | :x: | :x: | |
+| :six: | :white_check_mark: | :x: | :x: | |
+| :seven: | :white_check_mark: | :x: | :x: | |
+| :eight: | :white_check_mark: | :x: | :x: | |
+| :nine: | :white_check_mark: | :x: | :x: | |
+| :one::zero: | :white_check_mark: | :x: | :x: | |
 | :one::one: | :x: | :x: | :x: | |
 | :one::two: | :x: | :x: | :x: | |
 | :one::three: | :x: | :x: | :x: | |
