@@ -14,7 +14,7 @@
 | :three: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение функций cons и list |
 | :four: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение порядка реализации функций и работа с defun-функциями |
 | :five: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение setf и работа с defun-функциями |
-| :six: | :white_check_mark: | :x: | :x: | |
+| :six: | :white_check_mark: | :x: | :white_check_mark: | Изучение COND, IF, AND/OR- функций |
 | :seven: | :white_check_mark: | :x: | :x: | |
 | :eight: | :white_check_mark: | :x: | :x: | |
 | :nine: | :white_check_mark: | :x: | :x: | |
