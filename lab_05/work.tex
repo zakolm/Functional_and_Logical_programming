@@ -13,68 +13,68 @@
 		\end{itemize}
 	\item Что будет на экране, если вводить:
 		\begin{itemize}
-			\item a
-			\item b
-			\item c
-			\item ‘a
-			\item ‘(+ a c)
-			\item (a)
-			\item (eval ‘a)
+			\item a ; 2
+			\item b ; 3
+			\item c ; 5
+			\item ‘a ; a
+			\item ‘(+ a c) ; (+ a c)
+			\item (a) ; Eval error
+			\item (eval ‘a) ; 2
 		\end{itemize}
 	\underline{Добавив:}\\
 	\textbf{(defun a() ‘b) }\\
 	\textbf{(defun b() 4)}
 	\item Что будет на экране, если вводить:
 		\begin{itemize}
-			\item a
-			\item b 
-			\item c
-			\item ‘a
-			\item ‘(+ a c)
-			\item (a)
-			\item (eval ‘a)
-			\item (a)
-			\item (+ a a)
-			\item (+ (b) b)
-			\item (b b b)
+			\item a ; 2
+			\item b ; 3
+			\item c ; 5
+			\item ‘a ; a
+			\item ‘(+ a c) ; (+ a c)
+			\item (a) ; b
+			\item (eval ‘a) ; 2
+			\item (a) ; 4
+			\item (+ a a) ; 4
+			\item (+ (b) b) ; 7
+			\item (b b b) ; Eval error
 		\end{itemize}
 	\underline{Добавив:}\\
 	\textbf{(setf a b)}
 	\item Что будет на экране, если вводить:
 		\begin{itemize}
-			\item a
-			\item b 
-			\item c
-			\item `a
-			\item `(+ a c)
-			\item (a)
-			\item (eval `a)
+			\item a ; 3
+			\item b ; 3
+			\item c ; 5
+			\item `a ; a
+			\item `(+ a c) ; (+ a c)
+			\item (a) ; b
+			\item (eval `a) ; 3
 		\end{itemize}
 	\underline{Добавив:}\\
 	\textbf{(setf c b)}
 	\item Что будет на экране, если вводить:
 		\begin{itemize}
-			\item a
-			\item b
-			\item c
-			\item `a
-			\item `(+ a c)
-			\item (a)
-			\item (eval `a)
+			\item a ; 3
+			\item b ; 3
+			\item c ; 3
+			\item `a ; a
+			\item `(+ a c) ; (+ a c)
+			\item (a) ; b
+			\item (eval `a) ; 3
 		\end{itemize}
 	\underline{Добавив:}\\
 	\textbf{(defun a(x y) (+ x y))}
 	\item Что будет на экране, если вводить:
 		\begin{itemize}
-			\item a
-			\item b
-			\item c
-			\item `a
-			\item `(+ a c)
-			\item (a)
-			\item (eval `a)
-			\item (a a a)
-			\item (a b a)
+			\item a ; 3
+			\item b ; 3
+			\item c ; 3
+			\item `a ; a
+			\item `(+ a c) ; (+ a c)
+			\item (a) ; Eval error
+			\item (eval `a) ; 3
+			\item (a a a) ; 6
+			\item (a b a) ; 6
 		\end{itemize}
 	\hrulefill 
 \begin{itemize}
@@ -84,9 +84,29 @@
 	%	\hrulefill
 	\item Что будет на экране, если вводить:
 		\begin{itemize}
-			\item a
-			\item b
-			\item (b b b)
+			\item a ; 3
+			\item b ; 3
+			\item (b b b) ; 36
 		\end{itemize}
 	\item Напишите функцию, которая вычисляет катет по гипотенузе и другому катету.
+	\lstinputlisting[
+		language=Lisp,                 % выбор языка для подсветки (здесь это С)
+		basicstyle=\small\sffamily, % размер и начертание шрифта для подсветки кода
+		numbers=left,               % где поставить нумерацию строк (слева\справа)
+		numberstyle=\tiny,           % размер шрифта для номеров строк
+		stepnumber=1,                   % размер шага между двумя номерами строк
+		numbersep=5pt,                % как далеко отстоят номера строк от подсвечиваемого кода
+		backgroundcolor=\color{white}, % цвет фона подсветки - используем \usepackage{color}
+		showspaces=false,            % показывать или нет пробелы специальными отступами
+		showstringspaces=false,      % показывать или нет пробелы в строках
+		showtabs=false,             % показывать или нет табуляцию в строках
+		frame=single,              % рисовать рамку вокруг кода
+		tabsize=2,                 % размер табуляции по умолчанию равен 2 пробелам
+		captionpos=t,              % позиция заголовка вверху [t] или внизу [b] 
+		breaklines=true,           % автоматически переносить строки (да\нет)
+		breakatwhitespace=false, % переносить строки только если есть пробел
+		escapeinside={\%*}{*)},  % если нужно добавить комментарии в коде
+		caption=Функция для вычисление катета по заданной гипотенузе и другому катету в прямоугольном треугольнике.
+		]{./leg}
+		
 \end{itemize}

@@ -1,0 +1,6 @@
+(defun leg2 (hyp leg1)
+       (sqrt (- (* hyp hyp)
+       	     	(* leg1 leg1)
+	     	)
+	     	)
+	     	)
