@@ -1,0 +1,5 @@
+(defun next-even (arg)
+	(cond ((cl-evenp arg) arg)
+        (               (+ arg 1))
+	)
+	)

@@ -1,0 +1,5 @@
+(defun growth-list (arg1 arg2)
+       (cond ((> arg2 arg1) (cons arg1 (cons (eval 'arg2) nil)))
+       	     (              (cons arg2 (cons (eval 'arg1) nil)))
+	)
+	)

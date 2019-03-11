@@ -1,0 +1,6 @@
+(defun first-middle (arg1 arg2 arg3)
+       (or
+	(and (> arg1 arg2) (< arg1 arg3))
+	(and (< arg1 arg2) (> arg1 arg3))
+       )
+       )
