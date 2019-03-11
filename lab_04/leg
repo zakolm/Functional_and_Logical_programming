@@ -1,5 +1,5 @@
 (defun leg2 (hup leg1)
-       (sqrt (/ (* hup hup)
+       (sqrt (- (* hup hup)
        	     	(* leg1 leg1))
 	     )
        )
