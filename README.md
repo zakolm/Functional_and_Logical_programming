@@ -17,10 +17,10 @@
 | :four: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение порядка реализации функций и работа с defun-функциями |
 | :five: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение setf и работа с defun-функциями |
 | :six: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение COND, IF, AND/OR- функций |
-| :seven: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| :eight: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| :nine: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| :one::zero: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| :seven: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Продолжение COND, IF, AND/OR- функций  |
+| :eight: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Проставлен автоматом |
+| :nine: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Проставлен автоматом |
+| :one::zero: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Проставлен автоматом |
 
 ---
 ## Prolog
