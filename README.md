@@ -18,9 +18,9 @@
 | :five: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение setf и работа с defun-функциями |
 | :six: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Изучение COND, IF, AND/OR- функций |
 | :seven: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Продолжение COND, IF, AND/OR- функций  |
-| :eight: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Проставлен автоматом(как и часте группы за хорошо написанный РК) |
-| :nine: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Проставлен автоматом(как и часте группы за хорошо написанный РК) |
-| :one::zero: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Проставлен автоматом(как и часте группы за хорошо написанный РК) |
+| :eight: | :white_check_mark: | :white_check_mark: | :x: | Проставлен автоматом(как и часте группы за хорошо написанный РК) |
+| :nine: | :white_check_mark: | :white_check_mark: | :x: | Проставлен автоматом(как и часте группы за хорошо написанный РК) |
+| :one::zero: | :white_check_mark: | :white_check_mark: | :x: | Проставлен автоматом(как и часте группы за хорошо написанный РК) |
 
 ---
 ## Prolog
